@@ -5,10 +5,10 @@ body{
 }
 
 .hero{
-  background: url('../src/assets/Images/background.jpg');
+  background: url('../src/assets/Images/Livestock.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 750px;
 }
 
 h1{

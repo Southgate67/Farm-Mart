@@ -6,7 +6,7 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
-          <a className="navbar-brand" href="#"><img src={Logo} alt="" /></a>
+          <a className="navbar-brand" href="#"><p className="text-danger">FARM MART</p></a>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,7 +27,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-dark" href="/Services">
-                  Services
+                  Products
                 </a>
               </li>
               <li className="nav-item">
@@ -41,8 +41,8 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <a href="" className="btn btn-danger" type="submit">
-              Request a Quote
+            <a href="../Contact" className="btn btn-danger" type="submit">
+              Place Your Order
             </a>
           </div>
         </div>

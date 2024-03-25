@@ -1,8 +1,5 @@
 import React from "react";
-import Footer1 from '../assets/Images/footer1.png'
-import Footer2 from '../assets/Images/footer2.png'
-import Footer3 from '../assets/Images/footer3.png'
-import Footer4 from '../assets/Images/footer4.png'
+
 function Footer() {
   return (
     <>
@@ -10,48 +7,67 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <h4 className="text-warning">CRYSTAL SHIPMENT</h4>
-              <p>Crystal Shipment is the world's leading shipment and transport
-                service provider. We are present in over 20 countries were we
-                have offices, partners, and agents.</p>
+              <h4 className="text-info">FARM MART</h4>
+              <p>Farm Mart is more than just an online store.</p>
             </div>
 
             <div className="col-md-3">
-              <h4 className="text-warning">Quick Links</h4>
+              <h4 className="text-info">CATEGORIES</h4>
               <ul className="list-unstyled">
-                <li><a href="" className="text-decoration-none text-light">All Services</a></li>
-                <li><a href="" className="text-decoration-none text-light">Land Freight</a></li>
-                <li><a href="" className="text-decoration-none text-light">Sea Freight</a></li>
-                <li><a href="" className="text-decoration-none text-light">Air Freight</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Livestock</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Poultry</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Fruits and Vegetables</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Grains</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Tubers</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Oil Palm</a></li>
+                <li><a href="../Services" className="text-decoration-none text-light">Seafoods</a></li>
               </ul>
             </div>
 
             <div className="col-md-3">
-              <h4 className="text-warning">PHOTO GALLERY</h4>
-              <div className="d-flex mt-3">
-                <div className="flex-grow-1 me-2">
-                  <img src={Footer1} className="img-fluid rounded" alt="" />
-                </div>
+              <h4 className="text-info">ENQUIRY</h4>
+              <ul className="list-unstyled">
+                <li>
+                  <div className="mb-3">
+                    <a href="tel:09137029216" className='text-decoration-none text-light'>
+                    <span className="me-3">
+                    <i className="fa fa-phone"></i>
+                    </span>
+                    +2348065435321
+                    </a>
+                  </div>
+                </li>
 
-                <div className="flex-grow-1 ms-2">
-                  <img src={Footer2} className="img-fluid rounded" alt="" />
-                </div>
-              </div>
+                <li>
+                  <div className="mt-3">
+                    <a href="https://wa.me/+2348065435321" className='text-decoration-none text-light'>
+                    <span className="me-3">
+                    <i className="fab fa-whatsapp"></i>
+                    </span>
+                    +2348065435321
+                    </a>
+                  </div>
+                </li>
 
-              <div className="d-flex mt-3">
-                <div className="flex-grow-1 me-2">
-                  <img src={Footer3} className="img-fluid rounded" alt="" />
-                </div>
+                <li>
+                  <div className="mt-3">
+                    <a href="mailto:info@crystalshipment.com" className='text-decoration-none text-light'>
+                    <span className="me-3">
+                    <i className="fa fa-envelope"></i>
+                    </span>
+                    info@farmmart.com
+                    </a>
+                  </div>
+                </li>
+              </ul>
+              
 
-                <div className="flex-grow-1 ms-2">
-                  <img src={Footer4} className="img-fluid rounded" alt="" />
-                </div>
-              </div>
+              
             </div>
 
             <div className="col-md-3">
-              <h4 className="text-warning">OUR NEWSLETTER</h4>
-              <p>Sign up to our newsletter for tips, latest news, and specialoffers.</p>
+              <h4 className="text-info">OUR NEWSLETTER</h4>
+              <p>Sign up to our newsletter for tips, latest news, and special offers.</p>
               <input type="text" className="form-control" placeholder="Enter your email here"/>
               <button className="btn btn-danger mt-3">Submit</button>
             </div>

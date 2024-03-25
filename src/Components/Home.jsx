@@ -10,56 +10,31 @@ function Home() {
   return (
     <>
       <div className="hero">
-        <div className="container text-light text-center pt-5">
-          <h1 className="pt-5" style={{marginTop: "60px"}}>
-            Easy and Quick Cargo Shipping Service
+        <div className="container text-center pt-5">
+          <h1 className="text-warning" style={{marginTop: "60px"}}>
+            Farm Mart is more than just an online store.
           </h1>
-          <p style={{fontSize: "24px"}}>Book low cost sea freight shipping serices. Get an instant quote.</p>
-          <a href="" className="btn btn-danger text-light">
+          <p className="text-info pt-3" style={{fontSize: "24px"}}>We connect smahllholder farmers to a wider market to meet their target audience, increase their sales revenue, and earn higher returns.</p>
+          {/* <a href="" className="btn btn-danger text-light">
             Track Goods Here
-          </a>
+          </a> */}
         </div>
       </div>
 
       <div className="container pt-5">
         <div className="text-center" data-aos="fade-up">
-          <h2>Welcome to Crystal Shipment</h2>
+          <h2>Welcome to Farm Mart</h2>
           <div className="bg-red mx-auto"></div>
           <p className="pt-3">
-            Crystal Shipment is more than logistics. We can also optimize your
-            packaging, manage your materials sourcing, and so much more.
+          Farm Mart is home to over 400 different fresh farm products from our over 60,000 smallholder partner farmers. We remain the best digital marketplace for fresh primary farm products for your domestic and industrial needs, offering higher returns to our partner smallholder farmers and added value to buyers.
           </p>
-        </div>
-
-        <div className="row">
-          <div className="col-md-6" data-aos="fade-up">
-            <img
-              src={About}
-              className="img-fluid rounded"
-              alt=""
-            />
-          </div>
-
-          <div className="col-md-6" data-aos="fade-up">
-            <p className="text-danger"> TRANSPORTATION COMPANY</p>
-            <h2>We Provide Full Range Logistics Solution</h2>
-            <p>
-              We strongly believe that pursuing all of these goals is in our
-              interest and in the interest of all of our stakeholders,
-              customers, employees, investors, and the planet as a whole, We add
-              value to cargoes with our excellent services.
-            </p>
-            <a href="" className="btn btn-danger">
-              Learn More
-            </a>
-          </div>
         </div>
       </div>
 
       <div className="container pt-5">
         <div className=" text-center" data-aos="fade-up">
-          <p className="text-danger">TYPES OF LOGISTICS</p>
-          <h2>Covering All Logistics Field</h2>
+          <h3 className="text-danger pb-1">FARM MART</h3>
+          <h5 className="pb-3">Explore our Fresh Farm Products for Your Domestic and Industrial Needs.</h5>
         </div>
 
         <Card/>
@@ -69,15 +44,15 @@ function Home() {
         </div>
       </div>
 
-      <div className="bg-warning mt-5" style={{minHeight:'200px', padding:'20px 0'}}>
+      <div className="bg-dark mt-5" style={{minHeight:'200px', padding:'20px 0'}}>
         <div className="container pt-5">
         <div className="row d-flex justify-content-center">
-          <div className="col-md-8">
-            <h2>Delivering your world one package at a time</h2>
-            <p>Crystal Shipment is more than just logistics.</p>
+          <div className="col-md-8 text-light">
+            <h3><span className="fw-bold">Farm Mart</span> your one-stop store for fresh farm products.</h3>
+            <p>We pride ourself as the best digital food store connecting farmers to end-users.</p>
           </div>
           <div className="col-md-4 text-md-end test-sm-start">
-            <a href="" className="btn btn-danger">Request a quote</a>
+            <a href="../Services" className="btn btn-danger">Place your order</a>
           </div>
         </div>
         </div>
@@ -86,14 +61,14 @@ function Home() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6" data-aos="fade-up">
-            <p>WHY CHOOSE US?</p>
+            <h5>WHY CHOOSE US?</h5>
             <div className="d-flex mt-3">
               <div className="flex-grow-1 ms-2">
                 <img src={Icon1} className="" alt=""/>
               </div>
               <div className="flex-grow-1 ms-2">
-                <h5 className="ms-3">Global Supply Chain Solutions</h5>
-                <p className="ms-3">Efficiently unleash cross-media information without cross-media value</p>
+                <h5 className="ms-3">Reliable Safe and Healthy Fresh Farm Products</h5>
+                <p className="ms-3">With our network of farmers, buyers are assured of steady supply of farm products all-year-round.</p>
               </div>
             </div>
 
@@ -103,7 +78,7 @@ function Home() {
               </div>
               <div className="flex-grow-1 ms-2">
                 <h5 className="ms-3">Mobile Shipment Tracking</h5>
-                <p className="ms-3">We ofer intelligent concepts and solutions to road, rail, and complext global transport needs.</p>
+                <p className="ms-3">We offer intelligent concepts and solutions to road, rail, and complex global transport.</p>
               </div>
             </div>
 
@@ -112,13 +87,12 @@ function Home() {
                 <img src={Icon3} className="" alt=""/>
               </div>
               <div className="flex-grow-1 ms-2">
-                <h5 className="ms-3">Safe and careful handling of goods and packages</h5>
+                <h5 className="ms-3">Safe and Careful Handling of Goods</h5>
                 <p className="ms-3">Cargoes are efficiently transported along each stage in the global supply network.</p>
               </div>
             </div>
           </div>
           <div className="col-md-6" data-aos="fade-up">
-            <p>REQUEST A QUOTE</p>
             <Form/>
           </div>
         </div>
