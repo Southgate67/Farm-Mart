@@ -4,7 +4,7 @@ import pic2 from "../assets/Images/Pigs.jpg";
 import pic3 from "../assets/Images/Goats.jpg";
 import pic4 from "../assets/Images/Grasscutter.jpeg";
 import pic5 from "../assets/Images/yams.jpg";
-import pic6 from "../assets/Images/Potatoe.PNG";
+import pic6 from "../assets/Images/Potatoe.png";
 import pic7 from "../assets/Images/Cocoyam.jpg";
 import pic8 from "../assets/Images/Carrot.jpg";
 import pic9 from "../assets/Images/Fruits.jpg";
